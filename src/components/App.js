@@ -19,7 +19,7 @@ const App = () => {
      <h1>Parent Component</h1>
      
      <div>
-     {data ? (<p>Login Succesfull!</p>) : (
+     {data ? (<p>Your logged in!</p>) : (
      <form onSubmit={handleclick}>
  <label>UserName :
  </label>
